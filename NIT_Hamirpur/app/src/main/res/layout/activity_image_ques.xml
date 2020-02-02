@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mayank.nit_hamirpur.ImageQues">
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="What is the picture below?"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintRight_toRightOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       android:id="@+id/question"
+       />
+
+
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="200sp"
+       android:src="@drawable/cat"
+       android:id="@+id/image"
+       />
+
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="dog"
+       android:background="#0091EA"
+       android:textColor="#fff"
+       android:padding="8dp"
+       android:layout_marginBottom="12dp"
+       android:id="@+id/choice2"/>
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="cat"
+       android:background="#0091EA"
+       android:textColor="#fff"
+       android:padding="8dp"
+       android:layout_marginBottom="12dp"
+       android:id="@+id/choice3"/>
+
+   <Button
+       android:id="@+id/choice1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="12dp"
+       android:background="#0091EA"
+       android:padding="8dp"
+       android:text="bird"
+       android:textColor="#fff" />
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="I Don't Know"
+       android:background="#B71C1C"
+       android:textColor="#fff"
+       android:padding="8dp"
+       android:layout_marginBottom="12dp"
+       android:id="@+id/quit"/>
+
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="40dp">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Score"
+          android:textSize="20sp"
+          android:layout_alignParentLeft="true"
+          android:id="@+id/score_text"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/score"
+          android:layout_alignParentRight="true"
+          android:text="0"
+          android:textSize="20sp"/>
+
+   </RelativeLayout>
+
+</LinearLayout>

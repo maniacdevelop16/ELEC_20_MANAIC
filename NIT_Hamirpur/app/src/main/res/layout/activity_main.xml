@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_light"
+    tools:context="com.example.mayank.nit_hamirpur.MainActivity">
+
+    <Button
+        android:id="@+id/msme"
+        android:layout_width="171dp"
+        android:layout_height="101dp"
+        android:background="@android:color/holo_green_light"
+
+        android:text="MSME"
+       />
+
+
+    <Button
+
+        android:layout_toRightOf="@+id/msme"
+        android:id="@+id/game"
+        android:text="GAMES"
+        android:layout_width="171dp"
+        android:layout_height="101dp"
+
+        />
+
+    <Button
+
+        android:id="@+id/map"
+        android:layout_width="171dp"
+        android:layout_height="101dp"
+        android:layout_below="@+id/msme"
+        android:background="@android:color/holo_blue_bright"
+
+        android:text="LOCATE HOME" />
+
+
+    <Button
+
+        android:id="@+id/draw"
+        android:layout_width="171dp"
+        android:layout_height="101dp"
+        android:layout_below="@+id/map"
+        android:background="@android:color/holo_blue_bright"
+
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Draw" />
+
+</RelativeLayout>
