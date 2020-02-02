@@ -1,4 +1,4 @@
-# ELEC_20_MANAIC
+# ELEC_20_MANACI
 We propose to develop an application for the detection of dementia and help in monitoring dementia patients. 
 The second part of the application that is used for the monitoring of the patient.
 Create features such as Navigate home, Safe-zone Geo-fencing, Periodic Safety Check, Pill and other task reminders.
